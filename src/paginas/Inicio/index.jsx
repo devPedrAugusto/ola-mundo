@@ -8,13 +8,14 @@ const Inicio = () => {
   return (
     <>
       <ul className={styles.posts}>
-      {meusPosts.map((post) => 
+        {meusPosts.map((post) =>
           <PostCards
-            id = {post.id}
-            titulo = {post.titulo}
-            texto = {post.texto}
+            key={post.id}
+            id={post.id}
+            titulo={post.titulo}
+            texto={post.texto}
           />
-      )}
+        )}
       </ul>
     </>
   )

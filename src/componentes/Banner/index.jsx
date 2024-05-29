@@ -11,15 +11,17 @@ export default function Banner() {
       <div className={styles.apresentacao}>
       <h1 className={styles.titulo}>Olá Mundo</h1>
       <p className={styles.paragrafo}>
-        Olá prazer em conhecê-lo. Permita me apresentar, me chamo Pedro Augusto tenho 20 anos.
+        Boas vindas ao meu espaço pessoal! Eu sou Antônio Evaldo, instrutor de Front-end da Alura. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
       </p>
       </div>
 
       <div className={styles.imagens}>
         <img className={styles.circuloColorido}
+          alt='Um círculo de cores em degradê'
           src={circulo}
         />
         <img className={styles.minhaFoto}
+          alt='Foto de perfil do Antônio'
           src={minhaFoto} 
           aria-hidden= {true}
         />
